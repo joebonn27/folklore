@@ -1,0 +1,62 @@
+/* Index*/
+.background-image{
+    background-image:url(./assets/folklore-intro3.gif);
+    background-repeat: no-repeat;
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.home-title{
+    text-align: center;
+    display:grid;
+    position:absolute;
+    top:60%;
+    right:50%;
+    font-family: 'Pacifico', cursive;
+    font-size: 200%;
+    color: #5073a7;
+    opacity: 90%;
+}
+body{
+    position:relative;
+}
+
+
+/*mainpage*/
+.main_page {
+    background-image:url(./assets/main_page_3.gif);
+    background-repeat: no-repeat;
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.categories{
+    display:flex;
+    position:absolute;
+    top:75%;
+    left:5%;
+    font-family: 'Pacifico';
+    gap: 40px;
+    font-size: 200%;
+}
+
+.groups{
+    color:rgb(219, 150, 46);
+
+}
+a:hover {
+    color:red;
+
+}
+
